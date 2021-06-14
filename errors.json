@@ -1,0 +1,12 @@
+{
+  "MissingPermissions": "Cannot execute command; missing permissions!",
+  "MemberNotFound": "Cannot execute command; user not found!",
+  "MissingRequiredArgument": "Cannot execute command; missing command arguments",
+  "CommandInvokeError": "Something went wrong, please try again!",
+  "CommandNotFound": "Something went wrong, command not found!",
+  "IncorrectArguments": "Cannot execute command, your arguments are incorrect, use m!cmdhelp for more info!",
+  "TooManyRequests": "You are using this command too quickly! Please wait!",
+  "PageOverflow": "Cannot execute command, page does not exist!",
+  "IndexError": "Something went wrong, item does not exist!",
+  "ZeroDivisionError": "You cannot divide by zero!"
+}

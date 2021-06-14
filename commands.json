@@ -1,0 +1,120 @@
+{
+  "latency": {
+    "title": "Latency",
+    "description": "Returns the bot latency",
+    "format": "m!latency",
+    "example": "m!latency"
+  },
+
+  "kick": {
+    "title": "Kick",
+    "description": "Kicks a specific user(Requires permissions)",
+    "format": "m!kick [user] [reason]",
+    "example": "m!kick @example#0001 Example reason!"
+  },
+
+  "ban": {
+    "title": "Ban",
+    "description": "Bans a specific user(Requires permissions)",
+    "format": "m!ban [user] [delete_message_history(0-7)] [reason]",
+    "example": "m!ban @example#0001 7 Example reason!"
+  },
+
+  "coinflip": {
+    "title": "Coinflip",
+    "description": "Flips a coin",
+    "format": "m!coinflip [heads/tails]",
+    "example": "m!coinflip heads"
+  },
+
+  "purge": {
+    "title": "Purge",
+    "description": "Deletes a specific amount of messages in a discord channel",
+    "format": "m!purge [limit]",
+    "example": "m!purge 10"
+  },
+
+  "rosearch": {
+    "title": "Rosearch",
+    "description": "Gives info on a Roblox user",
+    "format": "m!rosearch [username]",
+    "example": "m!rosearch Roblox"
+  },
+
+  "funfact": {
+    "title": "Funfact",
+    "description": "Tells a random fact",
+    "format": "m!funfact",
+    "example": "m!funfact"
+  },
+
+  "add": {
+    "title": "Add",
+    "description": "Adds two numbers",
+    "format": "m!add [number1] [number2]",
+    "example": "m!add 9 10"
+  },
+
+  "subtract": {
+    "title": "Subtract",
+    "description": "Subtracts two numbers",
+    "format": "m!subtract [number1] [number2]",
+    "example": "m!subtract 10 5"
+  },
+
+  "multiply": {
+    "title": "Multiply",
+    "description": "Multiplies two numbers",
+    "format": "m!multiply [number1] [number2]",
+    "example": "m!multiply 6 3"
+  },
+
+  "divide": {
+    "title": "Divide",
+    "description": "Divides two numbers",
+    "format": "m!divide [number1] [number2]",
+    "example": "m!divide 20 5"
+  },
+
+  "exponent": {
+    "title": "Exponent",
+    "description": "Gets the power of two numbers",
+    "format": "m!exponent [number1] [number2]",
+    "example": "m!exponent 5 3"
+  },
+
+  "wikipedia": {
+    "title": "Wikipedia",
+    "description": "Gets a random Wikipedia article",
+    "format": "m!wikipedia",
+    "example": "m!wikipedia"
+  },
+
+  "dm": {
+    "title": "Dm",
+    "description": "DMs the user(Requires administrator)",
+    "format": "m!dm [user] [message]",
+    "example": "m!dm @example#0001 hello!"
+  },
+
+  "cmdlist": {
+    "title": "Cmdlist",
+    "description": "Provides a list of commands",
+    "format": "m!cmdlist [page]",
+    "example": "m!cmdlist 1"
+  },
+
+  "cmdhelp": {
+    "title": "Cmdhelp",
+    "description": "Provides info on bot commands",
+    "format": "m!cmdhelp [command]",
+    "example": "m!cmdhelp latency"
+  },
+
+  "pi": {
+    "title": "Pi",
+    "description": "Returns the value of pi",
+    "format": "m!pi",
+    "example": "m!pi"
+  }
+}
